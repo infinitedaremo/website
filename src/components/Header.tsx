@@ -233,6 +233,8 @@ function Avatar({
     >
       <Image
         src={avatarImage}
+        quality={100}
+        unoptimized={true}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
