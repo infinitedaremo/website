@@ -142,11 +142,11 @@ export default function About() {
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
-              href="https://gitlab.com/gavinwoods"
+              href="https://github.com/infinitedaremo"
               icon={GitHubIcon}
               className="mt-4"
             >
-              Follow on GitLab
+              Follow on GitHub
             </SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/gavin-woods-fsd/"

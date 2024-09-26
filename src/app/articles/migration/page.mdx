@@ -1,0 +1,19 @@
+import { ArticleLayout } from '@/components/ArticleLayout';
+
+export const article = {
+  author: 'Gavin Woods',
+  date: '2024-09-26',
+  title: 'Migrated from Firebase to Vercel',
+  description:
+    'Since my website leverages SSR I had to migrate to a provider which supports it natively',
+};
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+};
+
+export default (props) => <ArticleLayout article={article} {...props} />;
+
+Switching over to <a href="https://vercel.com/">Vercel</a> was painless, my project now automatically deploys when new code is pushed to main with zero
+repo configuration. It's free to use anf great for static and dynamic websites.
